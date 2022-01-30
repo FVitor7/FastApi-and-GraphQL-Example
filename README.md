@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 uvicorn app.app:app --reload
 ```
-### URL to GraphQl:
+### URL to GraphQL:
 
 ```
 http://localhost:8000/graphql
