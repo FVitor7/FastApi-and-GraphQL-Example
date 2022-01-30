@@ -15,7 +15,6 @@ class User(SQLModel, table=True):
     email: str
     cpf:str
     birth_date: str
-    gender: str
 
     address: List['Address'] = Relationship(back_populates='user')
 

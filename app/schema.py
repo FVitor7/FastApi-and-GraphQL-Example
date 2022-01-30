@@ -13,14 +13,13 @@ class User:
     email: str
     cpf:str
     birth_date: str
-    gender: str
-    enderecos: List['Address']
+    address: List['Address']
 
 
 @strawberry.type
 class Address:
     id: Optional[int]
-    user: User
+    user: 'User'
     city: str
     cep: str
     district: str
