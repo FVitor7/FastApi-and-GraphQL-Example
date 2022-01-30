@@ -23,12 +23,53 @@ pip install -r requirements.txt
 ```
 uvicorn app.app:app --reload
 ```
-URL to GraphQl:
+### URL to GraphQl:
 
 ```
 http://localhost:8000/graphql
 ````
+## Consult Query User and Address
 
+```
+query {
+  allUsers{
+    name
+    address {
+      cep
+    }
+  }
+  allAddress {
+    cep
+    user {
+      name
+    }
+  }
+}
+````
+
+## Create Mutation User and Address Example
+
+```
+mutation {
+  createUser(
+    birthDate: "14/01/1981", 
+    cpf: "74319963148", 
+    email: "marcosmatheusericksouza_@impactatp.com.br", 
+    name: "danielajessicadacunha_@focusnetworks.com.br") {
+    name
+  }
+  createAddress(
+    cep: "65082210",
+    city: "São Luís", 
+    district: "São Raimundo(Anjo da Guarda)", 
+    number: "965", 
+    street: "Rua Três", 
+    userId: 4) {
+    id
+  }
+}
+
+````
 
 ## 🤝 Contributors
 
