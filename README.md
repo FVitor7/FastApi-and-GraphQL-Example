@@ -88,4 +88,4 @@ mutation {
 </table>
 
 
-[⬆ Voltar ao topo](#fastapi-and-graphql-example)<br>
+[⬆ Voltar ao topo](#user-content-fastapi-and-strawberry-graphql-example)<br>
