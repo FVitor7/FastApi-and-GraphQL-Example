@@ -1,6 +1,6 @@
 # FastApi and Strawberry GraphQl Example
 
-### Pock of a GraphQL Service endpoint built with [FastAPI](https://fastapi.tiangolo.com/) and [Strawberry GraphQL](https://strawberry.rocks/)
+### POC of a GraphQL Service endpoint built with [FastAPI](https://fastapi.tiangolo.com/) and [Strawberry GraphQL](https://strawberry.rocks/)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/fvitor7/FastApi-and-Graphql-Example?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/FVitor7/FastApi-and-Graphql-Example?style=for-the-badge)
