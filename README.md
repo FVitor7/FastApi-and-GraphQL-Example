@@ -1,4 +1,4 @@
-# FastApi and GraphQl Example
+# FastApi and Strawberry GraphQl Example
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/fvitor7/FastApi-and-Graphql-Example?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/FVitor7/FastApi-and-Graphql-Example?style=for-the-badge)
