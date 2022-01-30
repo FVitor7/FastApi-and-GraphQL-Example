@@ -1,4 +1,4 @@
-# FastApi and Strawberry GraphQl Example
+# FastApi and Strawberry GraphQL Example
 
 ### POC of a GraphQL Service endpoint built with [FastAPI](https://fastapi.tiangolo.com/) and [Strawberry GraphQL](https://strawberry.rocks/)
 
